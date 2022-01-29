@@ -830,6 +830,7 @@ jobs:
         run: rpmbuild -ba ../dist/unix/strawberry.spec
 
 
+<<<<<<< HEAD
 
   build_debian_buster:
     name: Build Debian Buster
@@ -1016,6 +1017,7 @@ jobs:
         run: dpkg-buildpackage -b -d -uc -us -nc -j2
 
 
+<<<<<<< HEAD
   build_ubuntu_bionic:
     name: Build Ubuntu Bionic
     runs-on: ubuntu-latest
