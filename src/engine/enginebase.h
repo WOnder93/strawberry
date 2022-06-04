@@ -213,6 +213,12 @@ class Base : public QObject {
   // Options
   bool bs2b_enabled_;
 
+  // Spotify
+#ifdef HAVE_SPOTIFY
+  QString spotify_username_;
+  QString spotify_password_;
+#endif
+
  private:
   bool about_to_end_emitted_;
   Q_DISABLE_COPY(Base)
